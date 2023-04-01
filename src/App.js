@@ -106,7 +106,7 @@ else{
 {/* <TextForm showAlert={showAlert} heading="Enter the text to analyze below" mode={mode}/> */}
   <Routes>
     <Route exact path="/about" element={<About myStyle={myStyle}/>} />
-    <Route exact path="/" element={<TextForm showAlert={showAlert} heading="Enter the text to analyze below" mode={mode}/>} />
+    <Route exact path="/TextUtils" element={<TextForm showAlert={showAlert} heading="Enter the text to analyze below" mode={mode}/>} />
   </Routes>
 </div>
 </Router>
